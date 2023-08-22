@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  color: rgb(245, 81, 81);
+
+}
+
+.App-header img {
+  width: 15%;
+}
+
+.App-header h1 {
+  margin-top: 5%;
+}
+
+.App-body {
+  border-top: 2px solid rgb(245, 81, 81);
+  ;
+  height: 23rem;
+  border-bottom: 2px solid rgb(245, 81, 81);
+  ;
+
+}
+
+.App-body p {
+  margin: 5% 0 0 5%;
+}
+
+.App-footer {
+  text-align: center;
+  font-style: italic;
+}
+
+@media screen and (max-width:767px) {
+  .App-header img {
+    width: 30%;
+  }
+
+  .App-header h1 {
+    margin-top: 8%;
+  }
+}
