@@ -1,3 +1,19 @@
 .Notifications {
     border: 1px dashed rgb(245, 81, 81);
 }
+.Notifications button {
+    width: 5%;
+}
+
+.Notifications button img {
+    width: 100%;
+
+}
+
+.Notifications ul li[data-priority='default'] {
+    color: blue;
+}
+
+.Notifications ul li[data-priority='urgent'] {
+    color: red;
+}
